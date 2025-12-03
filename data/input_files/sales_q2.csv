@@ -1,0 +1,5 @@
+Order Id,Product,Qty,Price,Customer,State
+201,Laptop,1,54000,Arjun Mehta,Karnataka
+202,Mobile ,2,17500,,Maharashtra
+203,Headphones,1,1500,Neha Sharma,Karnataka
+204,Laptop,1,,Rahul Roy,Delhi
