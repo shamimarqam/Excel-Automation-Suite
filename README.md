@@ -1,21 +1,21 @@
-# **Excel Automation Suite**
+# Excel Automation Suite
 
-A Python-based automation tool for **merging**, **cleaning**, and **reporting** on Excel and CSV datasets.
+A Python-based automation tool for merging, cleaning, and reporting on Excel and CSV datasets.
 
-Designed as a realistic business automation workflow showcasing skills in **Pandas**, **OpenPyXL**, and general data processing.
+Designed as a realistic business automation workflow showcasing skills in Pandas,OpenPyXL, and general data processing.
 
 ---
 
-## **Features**
+## Features
 
-### **Data Operations**
+### Data Operations
 
 - Merge multiple Excel/CSV files into one unified dataset.
 - Standardize column names (lowercase, underscores, trimmed).
 - Handle missing values automatically (median for numeric, placeholder for text).
 - Drop completely empty rows.
 
-### **Reporting**
+### Reporting
 
 - Generate a summary report containing:
   - Total rows
@@ -23,7 +23,7 @@ Designed as a realistic business automation workflow showcasing skills in **Pand
   - Numeric vs. string column counts
 - Append the summary as a new sheet to the final Excel file.
 
-### **Automation & Execution**
+### Automation & Execution
 
 - One-command CLI workflow.
 - Modular code structure (cleaner, merger, reporter).
@@ -31,7 +31,7 @@ Designed as a realistic business automation workflow showcasing skills in **Pand
 
 ---
 
-## **Folder Structure**
+## Folder Structure
 
 ```
 excel_automation_suite/
@@ -53,16 +53,16 @@ excel_automation_suite/
 
 ---
 
-## **Installation**
+## Installation
 
-### **1. Clone the repository**
+### 1. Clone the repository
 
 ```
 git clone https://github.com/yourusername/excel-automation-suite.git
 cd excel-automation-suite
 ```
 
-### **2. Install dependencies**
+### 2. Install dependencies
 
 ```
 pip install -r requirements.txt
@@ -70,9 +70,9 @@ pip install -r requirements.txt
 
 ---
 
-## **Usage**
+## Usage
 
-### **Step 1: Add your files**
+### Step 1: Add your files
 
 Place all input Excel and CSV files inside:
 
@@ -80,24 +80,24 @@ Place all input Excel and CSV files inside:
 data/input_files/
 ```
 
-### **Step 2: Run the automation**
+### Step 2: Run the automation
 
 ```
 python main.py --output data/output/merged_cleaned.xlsx
 ```
 
-### **Step 3: Output**
+### Step 3: Output
 
 The tool will generate:
 
-1. **merged_cleaned.xlsx** – merged + cleaned dataset
-2. A **Summary_Report** sheet inside the same file
+1. merged_cleaned.xlsx – merged + cleaned dataset
+2. A Summary_Report sheet inside the same file
 
 ---
 
-## **Example Output (Summary Sheet)**
+## Example Output (Summary Sheet)
 
-| **Metric** | **Value** |
+| Metric | Value |
 | ---------------- | --------------- |
 | row_count        | 10234           |
 | column_count     | 12              |
